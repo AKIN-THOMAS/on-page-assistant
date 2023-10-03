@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheBishop Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div></div>
+    <div class="all">
+      <div class="allButtons">
+        <button class="button" onclick="moveAssistantTo(0)">Send</button>
+        <button class="button" onclick="moveAssistantTo(1)">Save</button>
+        <button class="button" onclick="moveAssistantTo(2)">Delete</button>
+        <button class="button" onclick="moveAssistantTo(3)">Create</button>
+      </div>
+      <div class="message">
+        <p class="explanation" id="explanation"></p>
+      </div>
+      <div class="assistant" id="assistant">
+        <img
+          src="../assets/duck.gif"
+          alt="Assistant Image"
+          class="assistant-image"
+        />
+      </div>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
